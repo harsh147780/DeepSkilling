@@ -7,7 +7,7 @@ public class Main {
         DocumentFactory pdfFactory = new PdfDocumentFactory();
         Document pdfDoc = pdfFactory.createDocument();
         pdfDoc.open();
-        pdfDoc.close();
+        pdfDoc.close(); 
         DocumentFactory excelFactory = new ExcelDocumentFactory();
         Document excelDoc = excelFactory.createDocument();
         excelDoc.open();
